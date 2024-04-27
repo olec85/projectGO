@@ -18,7 +18,7 @@
 
 .adress::before {
     content: "";
-    background-image: url(/image/location.svg);
+    background-image: url(../image/location.svg);
     background-repeat: no-repeat;
     /* padding-right: 50px; */
     position: absolute;
@@ -37,7 +37,7 @@
 
 .phone::before {
     content: "";
-    background-image: url(/image/bx_bxs-phone-call.svg);
+    background-image: url(../image/bx_bxs-phone-call.svg);
     background-repeat: no-repeat;
     /* padding-right: 50px; */
     position: absolute;
@@ -55,7 +55,7 @@
 
 .mail::before {
     content: "";
-    background-image: url(/image/email.svg);
+    background-image: url(../image/email.svg);
     background-repeat: no-repeat;
     /* padding-right: 50px; */
     position: absolute;

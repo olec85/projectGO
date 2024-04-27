@@ -27,11 +27,11 @@
 }
 
 .faq__list-item:nth-child(1n)::after {
-    background-image: url(/image/open-purple.svg);
+    background-image: url(../image/open-purple.svg);
 }
 
 .faq__list-item:nth-child(2n)::after {
-    background-image: url(/image/open.svg);
+    background-image: url(../image/open.svg);
 }
 
 
