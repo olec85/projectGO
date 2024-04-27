@@ -1,0 +1,30 @@
+.man__game {
+    position: relative;
+    min-height: 800px;
+}
+
+.man__game::after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    content: "";
+    background-image: url(/image/one.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 675px;
+    height: 762px;
+}
+
+.man__title {
+    font-weight: 900;
+    font-size: 150px;
+    letter-spacing: -0.1em;
+    line-height: 100%;
+}
+
+.man__text {
+    font-weight: 400;
+    font-size: 28px;
+    padding-left: 100px;
+    line-height: 179%;
+}

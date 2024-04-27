@@ -1,0 +1,55 @@
+.hall__link {
+    display: block;
+    padding: 135px 66px;
+}
+
+.hall__item {
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 70px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* .hall__item:not(:nth-child(2n)) {
+    margin-right: 10px;
+} */
+
+.hall__item-theme-vibes {
+    background-image: url(/image/two.png);
+    width: 580px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 70px; */
+}
+
+.hall__item-theme-starwars {
+    background-image: url(/image/three.png);
+    width: 580px;
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 70px; */
+}
+
+.hall__item-theme-wildwest {
+    background-image: url(/image/four.png);
+    width: 580px;
+    margin-right: 10px;
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 70px; */
+}
+
+.hall__item-theme-neon {
+    background-image: url(/image/five.png);
+    width: 580px;
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 70px; */
+}

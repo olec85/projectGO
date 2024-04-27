@@ -1,0 +1,39 @@
+
+.review__list {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.review__item-img {
+    width: 280px;
+    height: 280px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.review__item-img-name {
+    font-weight: 400;
+    font-size: 20px;
+    /* position: relative;
+    left: 60px;
+    top: 10px;    */
+}
+
+.review__item-figure {
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+}
+.review__item-img-description {
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 400;
+    font-size: 20px;
+    max-width: 680px;
+    padding-top: 62px;
+}
+
+.review__item:not(:last-child) {
+    margin-bottom: 50px;
+}

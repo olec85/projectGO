@@ -1,0 +1,81 @@
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contacts-adress {
+    max-width: 300px;
+    margin-bottom: 35px;position: relative;
+}
+
+.adress {
+    font-size: 24px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 38px;
+    padding-left: 54px;
+}
+
+.adress::before {
+    content: "";
+    background-image: url(/image/location.svg);
+    background-repeat: no-repeat;
+    /* padding-right: 50px; */
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 0;
+}
+
+.phone {
+    font-size: 24px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 11px;
+    padding-left: 54px;
+}
+
+.phone::before {
+    content: "";
+    background-image: url(/image/bx_bxs-phone-call.svg);
+    background-repeat: no-repeat;
+    /* padding-right: 50px; */
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 0;
+}
+
+.mail {
+    font-size: 24px;
+    font-weight: 600;
+    display: block;
+    padding-left: 54px;
+}
+
+.mail::before {
+    content: "";
+    background-image: url(/image/email.svg);
+    background-repeat: no-repeat;
+    /* padding-right: 50px; */
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 0;
+}
+
+.social-contacts {
+    display: inline-block;
+}
+
+.social {
+    display: inline-block;
+}
+
+.social:not(:last-child) {
+    margin-right: 26px;
+}
+
+.social__link {
+    display: block;
+}
