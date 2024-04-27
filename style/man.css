@@ -8,7 +8,7 @@
     right: 0;
     bottom: 0;
     content: "";
-    background-image: url(/image/one.png);
+    background-image: url(../image/one.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 675px;

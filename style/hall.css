@@ -16,7 +16,7 @@
 } */
 
 .hall__item-theme-vibes {
-    background-image: url(/image/two.png);
+    background-image: url(../image/two.png);
     width: 580px;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -27,7 +27,7 @@
 }
 
 .hall__item-theme-starwars {
-    background-image: url(/image/three.png);
+    background-image: url(../image/three.png);
     width: 580px;
     /* background-repeat: no-repeat;
     background-size: cover;
@@ -36,7 +36,7 @@
 }
 
 .hall__item-theme-wildwest {
-    background-image: url(/image/four.png);
+    background-image: url(../image/four.png);
     width: 580px;
     margin-right: 10px;
     /* background-repeat: no-repeat;
@@ -46,7 +46,7 @@
 }
 
 .hall__item-theme-neon {
-    background-image: url(/image/five.png);
+    background-image: url(../image/five.png);
     width: 580px;
     /* background-repeat: no-repeat;
     background-size: cover;
