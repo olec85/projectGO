@@ -79,3 +79,15 @@
 .social__link {
     display: block;
 }
+
+.footer__address {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__map {
+    background-image: url(../image/map.png);
+    background-repeat: no-repeat;
+    width: 680px;
+    height: 247px;
+}

@@ -28,3 +28,64 @@
     padding-left: 100px;
     line-height: 179%;
 }
+
+.man__image {
+    position: absolute;
+    bottom: 90px;
+    right: 46%;
+    z-index: 1;
+}
+
+.man__game-text {
+
+}
+
+.man__game-text-container {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 150px;
+}
+
+.man__game-text-left {
+    width: 193px;
+    height: 209px;
+    padding-top: 30px;
+}
+
+.man__game-text-four {
+    font-weight: 900;
+    font-size: 100px;
+    color: #cd06ff;
+    text-align: center;
+}
+
+.man__game-text-new {
+    font-weight: 900;
+    font-size: 75px;
+    font-variant: all-small-caps;
+    color: #cd06ff;
+}
+
+.man__game-text-text {
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.man__game-text-right {
+    width: 166px;
+    height: 174px;
+    padding-top: 59px;
+}
+
+.man__game-text-btn {
+    padding: 25px 69px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 115%;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #6c0287;
+}

@@ -1,0 +1,53 @@
+.reserv {
+    background-color: #440F51;
+    padding-top: 80px;
+}
+
+.reserv__form {
+    margin: 0 auto;
+}
+
+.reserve__subtitle {
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 117%;
+    margin-bottom: 40px;
+}
+
+.reserve__card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reserve__card-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 55px;
+    border-radius: 8px;
+    background-color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 133%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+}
+
+.fieldset1 {
+    margin-bottom: 60px;
+}
+
+.fieldset2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.reserve__fieldset2 {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
