@@ -7,7 +7,7 @@
     margin: 0 auto;
 }
 
-.reserve__subtitle {
+.reserv__title {
     text-align: center;
     font-weight: 700;
     font-size: 24px;
@@ -15,12 +15,20 @@
     margin-bottom: 40px;
 }
 
-.reserve__card {
-    display: flex;
-    justify-content: space-between;
+.reserv__subtitle {
+    text-align: left;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 117%;
 }
 
-.reserve__card-item {
+.reserv__card {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.reserv__card-item {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,8 +54,64 @@
     margin-bottom: 60px;
 }
 
-.reserve__fieldset2 {
+.reserv__fieldset2 {
     display: flex;
     flex-direction: column;
     gap: 23px;
+}
+
+.reserv__checkbox {
+    width: 25px;
+    height: 25px;
+}
+
+.reserv__radio {
+    width: 27px;
+    height: 27px;
+}
+
+.reserv__fieldset2 label {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.fieldset3 {
+
+}
+
+.reserv__fieldset3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.reserv__fieldset3-one {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.reserv__fieldset3-two {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.reserv__fieldset3-three {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.reserv__fieldset3-btn {
+    float: inline-end;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 127%;
+    text-transform: uppercase;
+    color: #6c0287;
+    border-radius: 10px;
+    width: 300px;
+    height: 60px;
+    background-color: #fff;
 }
