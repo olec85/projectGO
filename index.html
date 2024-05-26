@@ -108,78 +108,82 @@
                             </div>
                         </fieldset>
                         
-                        <fieldset class="fieldset2">
-                            <legend class="reserv__title">Собери набор развлечений</legend>
-                            <div class="reserv__fieldset2">
-                                <legend class="reserv__subtitle">Приставка:</legend>
+                        <div class="reserv__block">
+                            <fieldset class="kit">
+                                <legend class="reserv__title">Собери набор развлечений</legend>
+                                <div class="reserv__kit">
+                                    <legend class="reserv__subtitle">Приставка:</legend>
+                                    
+                                    <label><input class="reserv__radio" type="radio" name="console" value="Play Station">Play Station</label>
+                                    <label><input class="reserv__radio" type="radio" name="console" value="Sega Mega Drive2">Sega Mega Drive2</label>
+                                    <label><input class="reserv__radio" type="radio" name="console" value="X-box One S">X-box One S</label>
+                                    <label><input class="reserv__radio" type="radio" name="console" value="Dandy">Dandy</label>
+                                    
+                                </div>
                                 
-                                <label><input class="reserv__radio" type="radio" name="console" value="Play Station">Play Station</label>
-                                <label><input class="reserv__radio" type="radio" name="console" value="Sega Mega Drive2">Sega Mega Drive2</label>
-                                <label><input class="reserv__radio" type="radio" name="console" value="X-box One S">X-box One S</label>
-                                <label><input class="reserv__radio" type="radio" name="console" value="Dandy">Dandy</label>
+                                <div class="reserv__kit">
+                                    <legend class="reserv__subtitle">Настольные игры</legend>
+                                    
+                                    <label><input class="reserv__checkbox" type="checkbox" name="boardGame" value="Jenga">Jenga</label>
+                                    <label><input class="reserv__checkbox" type="checkbox" name="boardGame" value="Monopoly">Monopoly</label>
+                                    <label><input class="reserv__checkbox" type="checkbox" name="boardGame" value="Манчкин">Манчкин</label>
+                                    <label><input class="reserv__checkbox" type="checkbox" name="boardGame" value="Alias">Alias</label>
+                                </div>
                                 
-                            </div>
+                                <div class="reserv__kit">
+                                    <legend class="reserv__subtitle">Дополнительно</legend>
+                                    
+                                    <label><input class="reserv__checkbox" type="checkbox" name="Karaoke" value="Karaoke">Karaoke</label>
+                                    <label><input class="reserv__checkbox" type="checkbox" name="VR" value="VR">VR</label>
+                                </div>
+                            </fieldset>
                             
-                            <div class="reserv__fieldset2">
-                                <legend class="reserv__subtitle">Настольные игры</legend>
-                                
-                                <label><input class="reserv__checkbox" type="checkbox" name="boardGame" value="Jenga">Jenga</label>
-                                <label><input class="reserv__checkbox" type="checkbox" name="boardGame" value="Monopoly">Monopoly</label>
-                                <label><input class="reserv__checkbox" type="checkbox" name="boardGame" value="Манчкин">Манчкин</label>
-                                <label><input class="reserv__checkbox" type="checkbox" name="boardGame" value="Alias">Alias</label>
-                            </div>
-                            
-                            <div class="reserv__fieldset2">
-                                <legend class="reserv__subtitle">Дополнительно</legend>
-                                
-                                <label><input class="reserv__checkbox" type="checkbox" name="Karaoke" value="Karaoke">Karaoke</label>
-                                <label><input class="reserv__checkbox" type="checkbox" name="VR" value="VR">VR</label>
-                            </div>
-                        </fieldset>
+                            <fieldset class="choice">
+                                <legend class="reserv__title">Выбери дату и время:</legend>
+                                <div class="reserv__choice">
+                                    <div class="reserv__choice-date">
+                                        <div class="reserv__choice-date-block">
+                                            <label class="reserv__choice-date-label">
+                                                <input class="reserv__input" type="date" name="date" required>
+                                            </label>
+                                            <label class="reserv__choice-date-label">
+                                                <input class="reserv__input" type="time" name="time" required>
+                                            </label>
+                                        </div>
+                                        <label>
+                                            <input class="reserv__input" type="number" name="number" required>
+                                        </label>
+                                    </div>
+                                    
+                                    <div class="reserv__choice-name">
+                                        <label>
+                                            Имя<input class="reserv__input" type="text" name="text" required>
+                                        </label>
+                                        
+                                        <label>
+                                            Фамилия<input class="reserv__input" type="text" name="text" required>
+                                        </label>
+                                    </div>
+                                    
+                                    <div class="reserv__choice-contact">
+                                        <label>
+                                            Телефон<input class="reserv__input" type="tel" name="tel" required>
+                                        </label>
+                                        <label>
+                                            Email<input class="reserv__input" type="email" name="email" required>
+                                        </label>
+                                    </div>
+                                    
+    
+                                    
+                                    <!-- <label>
+                                        <input type="checkbox">Я старше 18 лет
+                                    </label> -->
+                                </div>
+                            </fieldset>
+                            <button class="reserv__choice-btn">Забронировать</button>
+                        </div>
                         
-                        <fieldset class="fieldset3">
-                            <legend class="reserv__title">Выбери дату и время:</legend>
-                            <div class="reserv__fieldset3">
-                                <div class="reserv__fieldset3-one">
-                                    <label>
-                                        Дата<input type="date" name="date" required>
-                                    </label>
-                                    <label>
-                                        Время<input type="time" name="time" required>
-                                    </label>
-                                    
-                                    <label>
-                                        Количество человек<input type="number" name="number" required>
-                                    </label>
-                                </div>
-                                
-                                <div class="reserv__fieldset3-two">
-                                    <label>
-                                        Имя<input type="text" name="text" required>
-                                    </label>
-                                    
-                                    <label>
-                                        Фамилия<input type="text" name="text" required>
-                                    </label>
-                                </div>
-                                
-                                <div class="reserv__fieldset3-three">
-                                    <label>
-                                        Телефон<input type="tel" name="tel" required>
-                                    </label>
-                                    <label>
-                                        Email<input type="email" name="email" required>
-                                    </label>
-                                </div>
-                                
-
-                                
-                                <!-- <label>
-                                    <input type="checkbox">Я старше 18 лет
-                                </label> -->
-                            </div>
-                            <button class="reserv__fieldset3-btn">Забронировать</button>
-                        </fieldset>
                         
                         <!-- <label>
                             <input type="checkbox" required>Согласен на обработку данных

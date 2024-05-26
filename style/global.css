@@ -93,4 +93,5 @@ section:first-child {
 
 fieldset {
     border: none;
+    padding: 0;
 }

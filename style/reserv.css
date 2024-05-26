@@ -3,6 +3,12 @@
     padding-top: 80px;
 }
 
+.reserv__block {
+    overflow: hidden;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
 .reserv__form {
     margin: 0 auto;
 }
@@ -42,19 +48,20 @@
     text-transform: uppercase;
     text-align: center;
     color: #000;
+    cursor: pointer;
 }
 
 .fieldset1 {
     margin-bottom: 60px;
 }
 
-.fieldset2 {
+.kit {
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
 }
 
-.reserv__fieldset2 {
+.reserv__kit {
     display: flex;
     flex-direction: column;
     gap: 23px;
@@ -70,40 +77,52 @@
     height: 27px;
 }
 
-.reserv__fieldset2 label {
+.reserv__kit label {
     display: flex;
     align-items: center;
     gap: 12px;
 }
 
-.fieldset3 {
 
-}
-
-.reserv__fieldset3 {
+.reserv__choice {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 40px;
 }
 
-.reserv__fieldset3-one {
-    display: flex;
-    flex-direction: column;
-    max-width: 300px;
-}
-
-.reserv__fieldset3-two {
+.reserv__choice-date {
     display: flex;
     flex-direction: column;
     max-width: 300px;
+    gap: 36px;
 }
 
-.reserv__fieldset3-three {
+.reserv__choice-date-block {
+    display: flex;
+    gap: 32px;
+}
+
+.reserv__choice-date-label {
+    width: calc(50% - 16px);
+    
+}
+
+.reserv__choice-name {
     display: flex;
     flex-direction: column;
     max-width: 300px;
+    gap: 14px;
 }
 
-.reserv__fieldset3-btn {
+.reserv__choice-contact {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    gap: 14px;
+}
+
+.reserv__choice-btn {
     float: inline-end;
     font-weight: 700;
     font-size: 22px;
@@ -114,4 +133,11 @@
     width: 300px;
     height: 60px;
     background-color: #fff;
+}
+
+.reserv__input {
+    width: 100%;
+    height: 52px;
+    padding-left: 20px;
+    padding-right: 27px;
 }
