@@ -3,20 +3,22 @@
     padding-bottom: 50px;
 }
 
-.contacts-adress {
+.footer__contacts {
     max-width: 300px;
-    margin-bottom: 35px;position: relative;
+    margin-bottom: 35px;
+    position: relative;
 }
 
-.adress {
+.footer__contacts-adress {
     font-size: 24px;
     font-weight: 600;
     display: block;
     margin-bottom: 38px;
     padding-left: 54px;
+    font-style: normal;
 }
 
-.adress::before {
+.footer__contacts-adress::before {
     content: "";
     background-image: url(../image/location.svg);
     background-repeat: no-repeat;
@@ -27,15 +29,16 @@
     left: 0;
 }
 
-.phone {
+.footer__contacts-phone {
     font-size: 24px;
     font-weight: 600;
     display: block;
     margin-bottom: 11px;
     padding-left: 54px;
+    font-style: normal;
 }
 
-.phone::before {
+.footer__contacts-phone::before {
     content: "";
     background-image: url(../image/bx_bxs-phone-call.svg);
     background-repeat: no-repeat;
@@ -46,14 +49,15 @@
     left: 0;
 }
 
-.mail {
+.footer__contacts-mail {
     font-size: 24px;
     font-weight: 600;
     display: block;
     padding-left: 54px;
+    font-style: normal;
 }
 
-.mail::before {
+.footer__contacts-mail::before {
     content: "";
     background-image: url(../image/email.svg);
     background-repeat: no-repeat;
@@ -64,19 +68,19 @@
     left: 0;
 }
 
-.social-contacts {
+.footer__social-list {
     display: inline-block;
 }
 
-.social {
+.footer__social-item {
     display: inline-block;
 }
 
-.social:not(:last-child) {
+.footer__social-item:not(:last-child) {
     margin-right: 26px;
 }
 
-.social__link {
+.footer__social-link {
     display: block;
 }
 

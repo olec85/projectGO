@@ -55,7 +55,7 @@
     margin-bottom: 60px;
 }
 
-.kit {
+.reserv__block-kit {
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
@@ -88,6 +88,7 @@
     display: flex;
     justify-content: space-between;
     align-items: end;
+    gap: 40px;
     margin-bottom: 40px;
 }
 
@@ -105,17 +106,15 @@
 
 .reserv__choice-date-label {
     width: calc(50% - 16px);
-    
+    line-height: 22px;
+    font-size: 18px;
 }
 
-.reserv__choice-name {
-    display: flex;
-    flex-direction: column;
-    max-width: 300px;
-    gap: 14px;
+.reserv__choice-date-count {
+    font-size: 18px;
 }
 
-.reserv__choice-contact {
+.reserv__choice-info {
     display: flex;
     flex-direction: column;
     max-width: 300px;
@@ -140,4 +139,34 @@
     height: 52px;
     padding-left: 20px;
     padding-right: 27px;
+}
+
+.reserv__card-item:hover {
+    border: 3px solid #640AA3;
+    background-color: #EADEED;
+}
+
+.reserv__card-item:focus {
+    border: 3px solid #640AA3;
+    background-color: #EADEED;
+}
+
+.reserv__card-item:active {
+    border: 3px solid #ffffff;
+    background-color: #6C0287;
+    color: #fff;
+}
+
+.reserv__choice-btn:hover {
+    border: 3px solid #6C0287;
+    background-color: #EADEED;
+}
+
+.reserv__choice-btn:focus {
+    border: 3px solid #6C0287;
+    background-color: #ffffff;
+}
+
+.reserv__choice-btn:active {
+    background-color: #ffffff;
 }
