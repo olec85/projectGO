@@ -95,3 +95,13 @@
     width: 680px;
     height: 247px;
 }
+
+.footer__social-item:hover {
+    color: #EADEED;
+}
+
+.footer__social-item:active {
+    color: #CD06FF;
+}
+
+

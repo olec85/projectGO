@@ -108,10 +108,13 @@
 .man__image:focus {
     fill: transparent;
     stroke: transparent;
+    border: transparent;
     border: 1px solid #CD06FF;
+    
 }
 
 .man__image svg:active {
     fill: #640AA3;
     stroke: #ffffff;
+    border: transparent;
 }

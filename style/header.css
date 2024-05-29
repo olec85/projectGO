@@ -41,3 +41,7 @@
 .header__btn:active {
     background-color: #640AA3;
 }
+
+.header__nav-link:hover {
+    color: #6C0287;
+}
