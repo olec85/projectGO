@@ -32,8 +32,10 @@
 .man__image {
     position: absolute;
     bottom: 90px;
-    right: 46%;
+    left: 50%;/*мне кажется тут много 50%*/
+    transform: translateX(50%);
     z-index: 1;
+    border: 1px solid transparent;
 }
 
 
@@ -99,22 +101,21 @@
     background-color: #640AA3;
 }
 
-.man__image svg:hover {
+.man__image:hover svg {
     fill: #ffffff;
     stroke: #640AA3;
     border-radius: 100%;
 }
 
 .man__image:focus {
-    fill: transparent;
+    /* fill: transparent;
     stroke: transparent;
-    border: transparent;
+    border: transparent; */
     border: 1px solid #CD06FF;
-    
 }
 
-.man__image svg:active {
+.man__image:active svg {
     fill: #640AA3;
     stroke: #ffffff;
-    border: transparent;
+    /* border: transparent; */
 }

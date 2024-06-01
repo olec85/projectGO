@@ -83,6 +83,9 @@
     gap: 12px;
 }
 
+.choice {
+    padding: 0 3px;
+}
 
 .reserv__choice {
     display: flex;
@@ -122,7 +125,8 @@
 }
 
 .reserv__choice-btn {
-    float: inline-end;
+    display: block;
+    margin-left: auto;
     font-weight: 700;
     font-size: 22px;
     line-height: 127%;
@@ -169,4 +173,14 @@
 
 .reserv__choice-btn:active {
     background-color: #ffffff;
+}
+
+input.reserv__input:focus {
+    outline: 3px solid #CD06FF;
+    outline-offset: 1px;
+}
+
+input.reserv__checkbox:focus {
+    outline: 3px solid #CD06FF;
+    outline-offset: 1px;
 }

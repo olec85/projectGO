@@ -96,12 +96,15 @@
     height: 247px;
 }
 
-.footer__social-item:hover {
+.footer__social-link:hover svg {
     color: #EADEED;
 }
 
-.footer__social-item:active {
+.footer__social-link:active svg {
     color: #CD06FF;
 }
 
 
+.footer__social-link:focus svg {
+    border: 1px solid #CD06FF;
+}
