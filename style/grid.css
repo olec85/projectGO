@@ -60,3 +60,8 @@
     padding-left: 40px;
     padding-right: 40px;
 }
+
+.grid__container-item:hover {
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}

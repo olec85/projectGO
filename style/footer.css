@@ -98,13 +98,16 @@
 
 .footer__social-link:hover svg {
     color: #EADEED;
+    transition-duration: 0.3s;
 }
 
 .footer__social-link:active svg {
     color: #CD06FF;
+    transition-duration: 0.3s;
 }
 
 
 .footer__social-link:focus svg {
     border: 1px solid #CD06FF;
+    
 }

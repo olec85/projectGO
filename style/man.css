@@ -91,20 +91,25 @@
 
 .man__game-text-btn:hover {
     background-color: #840AA3;
+    transition-duration: 0.8s;
 }
 
 .man__game-text-btn:focus {
     background-color: #840AA3;
+    transition-duration: 0.3s;
 }
 
 .man__game-text-btn:active {
     background-color: #640AA3;
+    transition-duration: 1s;
 }
 
 .man__image:hover svg {
     fill: #ffffff;
     stroke: #640AA3;
     border-radius: 100%;
+    transition-duration: 2s;
+    transition-property: fill;
 }
 
 .man__image:focus {
@@ -112,10 +117,12 @@
     stroke: transparent;
     border: transparent; */
     border: 1px solid #CD06FF;
+    
 }
 
 .man__image:active svg {
     fill: #640AA3;
     stroke: #ffffff;
+    
     /* border: transparent; */
 }

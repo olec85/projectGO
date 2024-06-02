@@ -148,11 +148,13 @@
 .reserv__card-item:hover {
     border: 3px solid #640AA3;
     background-color: #EADEED;
+    transition-duration: 0.4s;
 }
 
 .reserv__card-item:focus {
     border: 3px solid #640AA3;
     background-color: #EADEED;
+    transition-duration: 0.4s;
 }
 
 .reserv__card-item:active {
@@ -164,6 +166,7 @@
 .reserv__choice-btn:hover {
     border: 3px solid #6C0287;
     background-color: #EADEED;
+    transition-duration: 0.4s;
 }
 
 .reserv__choice-btn:focus {
@@ -173,6 +176,7 @@
 
 .reserv__choice-btn:active {
     background-color: #ffffff;
+    transition-duration: 0.4s;
 }
 
 input.reserv__input:focus {
