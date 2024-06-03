@@ -71,14 +71,14 @@
     left: 0;
     content: "''";
     font-size: 48px;
-    color: #6C0287;
+    color: var(--about-color);
     padding-right: 16px;
 }
 
 .blockquote-game::after {
     content: "''";
     font-size: 48px;
-    color: #6C0287;
+    color: var(--about-color);
     padding-left: 0;
 }
 

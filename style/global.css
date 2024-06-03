@@ -16,7 +16,7 @@ body {
     font-weight: 400;
 
     background-color: #1B1A1B;
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 
 .container {

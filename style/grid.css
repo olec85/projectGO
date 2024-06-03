@@ -1,5 +1,5 @@
 .grid {
-
+    padding-bottom: 70px;
 }
 
 .grid__container {
@@ -22,6 +22,8 @@
 }
 
 .grid__container-item-audio {
+    position: relative;
+    top: 70px;
     background-image: url(../image/audio.png);
     background-repeat: no-repeat;
     padding-top: 166px;
@@ -46,6 +48,8 @@
 }
 
 .grid__container-item-kino {
+    position: relative;
+    top: 70px;
     background-image: url(../image/kino.png);
     background-repeat: no-repeat;
     padding-top: 166px;
