@@ -4,9 +4,9 @@
     margin: 0 auto;
 }
 
-.review__item-figure-wrapper::before {
+.review__item-figure-wrapper {
+    border-radius: 100%;
     background: radial-gradient(50% 50% at 50% 50%, rgb(196, 196, 196) 0%, rgb(108, 2, 135) 100%);
-    
 }
 
 .review__item-img{
