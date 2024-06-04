@@ -33,7 +33,7 @@
     position: absolute;
     bottom: 90px;
     left: 50%;/*мне кажется тут много 50%*/
-    transform: translateX(50%);
+    transform: translateX(-50%);
     z-index: 1;
     border: 1px solid transparent;
 }
