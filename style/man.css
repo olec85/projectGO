@@ -1,6 +1,6 @@
 .man__game {
     position: relative;
-    min-height: 800px;
+    min-height: 823px;
 }
 
 .man__game::after {
@@ -87,6 +87,7 @@
     text-transform: uppercase;
     color: var(--white-color);
     background-color: #6c0287;
+    box-shadow: 0 0 10px var(--white-color);
 }
 
 .man__game-text-btn:hover {
@@ -125,4 +126,159 @@
     stroke: var(--white-color);
     
     /* border: transparent; */
+}
+
+@media (max-width: 1250px) {
+    .man__game {
+        min-height: 583px;
+    }
+
+    .man__title {
+        font-size: 120px;
+    }
+
+    .man__text {
+        font-size: 22px;
+    }
+
+    .man__image {
+        bottom: 45px;
+    }
+
+    .man__image svg {
+        width: 67px;
+        height: 67px;
+    }
+
+    .man__game-text-container {
+        margin-bottom: 80px;
+    }
+    
+    .man__game-text-four {
+        font-size: 80px;
+    }
+    
+    .man__game-text-new {
+        font-size: 60px;
+    }
+
+    .man__game-text-text {
+        font-size: 26px;
+    }
+
+    .man__game-text-btn {
+        padding: 17px 48px;
+        font-size: 22px;
+    }
+
+    .man__game::after {
+        width: 453px;
+        height: 520px;
+    }
+}
+
+@media (max-width: 960px) {
+    .man__game {
+        min-height: 537px;
+    }
+
+    .man__title {
+        font-size: 86px;
+    }
+
+    .man__text {
+        font-size: 18px;
+    }
+
+    .man__image {
+        display: none;
+    }
+
+    .man__game-text-four {
+        font-size: 50px;
+    }
+    
+    .man__game-text-new {
+        font-size: 40px;
+    }
+
+    .man__game-text-text {
+        font-size: 16px;
+    }
+
+    .man__game-text-left {
+        width: 103px;
+        height: auto;
+        padding-top: 50px;
+    }
+
+    .man__game-text-right {
+        width: 89px;
+        height: auto;
+        padding-top: 65px;
+    }
+
+    .man__game-text-container {
+        margin-bottom: 100px;
+    }
+
+    .man__game::after {
+        width: 409px;
+        height: 472px;
+    }
+
+    .man__game-text-btn {
+        padding: 11px 35px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 720px) {
+    .man__game {
+        min-height: 204px;
+    }
+
+    .man__title {
+        font-size: 35px;
+    }
+
+    .man__text {
+        font-size: 10px;
+    }
+
+    .man__game-text-four {
+        font-size: 26px;
+    }
+    
+    .man__game-text-new {
+        font-size: 22px;
+    }
+
+    .man__game-text-text {
+        font-size: 10px;
+    }
+
+    .man__game-text-left {
+        width: 65px;
+        padding-top: 10px;
+    }
+
+    .man__game-text-right {
+        width: 54px;
+        padding-top: 16px;
+    }
+
+    .man__game::after {
+        width: 161px;
+        height: 179px;
+    }
+
+    .man__game-text-container {
+        margin-bottom: 30px;
+    }
+
+    .man__game-text-btn {
+        padding: 8px 13px;
+        font-size: 10px;
+    }
 }

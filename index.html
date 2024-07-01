@@ -28,6 +28,7 @@
     <header class="header">
         <div class="container">
             <div class="header__container">
+                <div class="header__container-burger"></div>
                 <img class="header__logo" src="./image/logo.svg" alt="логотип проекта GO">
                 <nav>
                     <ul class="header__nav">
@@ -172,28 +173,31 @@
                                             </label>
                                         </div>
                                         <label class="reserv__choice-date-count">
-                                            <input class="reserv__input" placeholder="Сколько человек" type="number" name="number" required>
+                                            <input class="reserv__input-number" placeholder="Сколько человек" type="number" name="number" required>
                                         </label>
                                     </div>
-                                    
-                                    <div class="reserv__choice-info">
-                                        <label>
-                                            Имя<input class="reserv__input" type="text" name="text" required>
-                                        </label>
+
+                                    <div class="reserv__choice-wrapper">
+                                        <div class="reserv__choice-info">
+                                            <label>
+                                                Имя<input class="reserv__input-name" type="text" name="text" required>
+                                            </label>
+                                            
+                                            <label>
+                                                Фамилия<input class="reserv__input-surname" type="text" name="text" required>
+                                            </label>
+                                        </div>
                                         
-                                        <label>
-                                            Фамилия<input class="reserv__input" type="text" name="text" required>
-                                        </label>
+                                        <div class="reserv__choice-info2">
+                                            <label>
+                                                Телефон<input class="reserv__input-phone" type="tel" name="tel" required>
+                                            </label>
+                                            <label>
+                                                Email<input class="reserv__input-email" type="email" name="email" required>
+                                            </label>
+                                        </div>
                                     </div>
                                     
-                                    <div class="reserv__choice-info">
-                                        <label>
-                                            Телефон<input class="reserv__input" type="tel" name="tel" required>
-                                        </label>
-                                        <label>
-                                            Email<input class="reserv__input" type="email" name="email" required>
-                                        </label>
-                                    </div>
                                     
     
                                     
@@ -220,18 +224,20 @@
                 <div class="about__container">
                     <div class="about__bg"></div>
                     <div class="about__content">
+                        <div class="about__description">
+                            <p class="about__description-description">Для наших гостей мы создали <i>концептуально новое игровое пространство виртуальной реальности</i> в центральной части города.</p>
+                            <p class="about__description-description">Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
+                        </div>
                         
-                    <p class="about-desc">Для наших гостей мы создали <i>концептуально новое игровое пространство виртуальной реальности</i> в центральной части города.</p>
-                    <p class="about-description">Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
-                    <blockquote class="blockquote">
-                        <p class="blockquote-game">
-                            GAME OVER &mdash;<br> это место незабываемых впечатлений
-                        </p>
-                        <figure  class="about__avatar">
-                            <img class="about__avatar-img" src="image/avatar.jpg" alt="">
-                            <figcaption class="about__avatar-desc">Аркадий Абакшин создатель первой игровой территории GAME OVER</figcaption>
-                        </figure>
-                    </blockquote>
+                        <blockquote class="blockquote">
+                            <p class="blockquote-game">
+                                GAME OVER &mdash;<br> это место незабываемых впечатлений
+                            </p>
+                            <figure  class="about__avatar">
+                                <img class="about__avatar-img" src="image/avatar.jpg" alt="">
+                                <figcaption class="about__avatar-desc">Аркадий Абакшин создатель первой игровой территории GAME OVER</figcaption>
+                            </figure>
+                        </blockquote>
                     </div>
                 </div>
             </div>
@@ -256,7 +262,7 @@
                             <img class="review__item-img" src="image/woman.jpg" alt="Оксана Григорьева" width="50" height="50"></div>
                             <figcaption class="review__item-img-name">Оксана Григорьева</figcaption>
                         </figure>
-                        <p class="review__item-img-description">Были в комнате Дикий Запад,пели в караоке под Шакиру,отличный получился корпоратив. У нас в городе больше нет подобных заведений</p>
+                        <p class="review__item-img-description">Отмечали здесь день рождения с компанией друзей,все было очень круто!VR очки просто бомба,никогда еще я не был в таком полном игровом погружении. Сервис на высоте!</p>
                     </li>
         
                     <li class="review__item">
@@ -265,7 +271,7 @@
                             <img class="review__item-img" src="image/woman-woman.jpg" alt="Никита Ященко" width="50" height="50"></div>
                             <figcaption class="review__item-img-name">Никита Ященко</figcaption>
                         </figure>
-                        <p class="review__item-img-description">Немного подвисала игра в VR очках, а так все норм. Крутое оформление комнаты в стиле звездных войн,попал в атмосферу космоса.</p>
+                        <p class="review__item-img-description">Отмечали здесь день рождения с компанией друзей,все было очень круто!VR очки просто бомба,никогда еще я не был в таком полном игровом погружении. Сервис на высоте!</p>
                     </li>
                 </ul>
             </div>
@@ -291,9 +297,9 @@
         <address class="footer__address">
             <div class="footer__contacts-block">
                 <div class="footer__contacts">
-                    <p class="footer__contacts-adress">г.Москва ул.&nbsp;Аквамарина, 16</p>
+                    <p class="footer__contacts-adress">г. Москва ул. Усачёва, 29 к3</p>
                     <a class="footer__contacts-phone" href="tel:89509302893">8(950)930-28-93</a>
-                    <a class="footer__contacts-mail" href="mailto::opa@bk.ru">opa@bk.ru</a>
+                    <a class="footer__contacts-mail" href="mailto::opa@bk.ru">GameOver@gmail.com</a>
                 </div>
                 <ul class="footer__social-list">
                     <li class="footer__social-item"><a class="footer__social-link" href="">

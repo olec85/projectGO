@@ -1,0 +1,36 @@
+.background {
+    background-image: url(../image/background-vibes.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+
+.background__btn {
+    position: relative;
+    bottom: 45px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 127%;
+    color: var(--white-color);
+}
+
+.background__btn::before {
+   content: '';
+   background-image: url(../image/Arrow-back.png);
+   background-repeat: no-repeat;
+   width: 30px;
+   height: 15px;
+   display: inline-block;
+   padding-right: 10px;
+}
+
+.background__title {
+    padding: 335px 0;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 89%;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--white-color);
+}

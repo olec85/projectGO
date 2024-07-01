@@ -8,13 +8,13 @@ html {
 }
 
 body {
+    /* width: 1240px;
+    margin: 0 auto;добавив это и следущую строку мы делаем сайт не адаптивным но тоже неплохо смотрящимся */
     min-width: 320px;
     min-height: 100vh;
-
     font-family: Arial, sans-serif;
     font-size: 16px;
     font-weight: 400;
-
     background-color: var(--main-color);
     color: var(--white-color);
 }
@@ -77,21 +77,70 @@ section {
 }
 
 section:first-child {
-    padding-top: 146px;
+    padding-top: 0;
 }
 
 .title {
     text-align: center;
-    font-weight: 900;
+    font-weight: 700;
+    text-transform: uppercase;
     font-size: 40px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .hidden {
     visibility: hidden;
+    display: none;
 }
 
 fieldset {
     border: none;
     padding: 0;
+}
+
+label {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    list-style-type: none;
+}
+
+@media (max-width: 1250px) {
+    .container {
+        max-width: 954px;
+        padding: 0 25px;
+    }
+
+    section {
+        padding: 35px 0;
+    }
+    
+    .title {
+        font-size: 30px;
+        margin-bottom: 26px;
+    }
+}
+
+@media (max-width: 960px) {
+    .container {
+        max-width: 728px;
+        padding: 0 20px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        max-width: 310px;
+        padding: 0 15px;
+    }
+
+    .title {
+        font-size: 14px;
+    }
 }

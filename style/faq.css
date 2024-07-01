@@ -70,6 +70,27 @@
     background-repeat: no-repeat;
 } */
 
+@media (max-width: 1250px) {
+    .faq__list-item {
+        font-size: 20px;
+        padding: 23px 30px;
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 720px) {
+    .faq__list-item {
+        font-size: 12px;
+        padding: 7px 0 7px 10px;
+        margin-bottom: 10px;
+    }
+
+    .faq__list-item img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
 
 
 

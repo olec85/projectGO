@@ -15,6 +15,7 @@
 
 .grid__container-item-vr {
     background-image: url(../image/vr.png);
+    background-size: contain;
     background-repeat: no-repeat;
     padding-top: 166px;
     padding-left: 40px;
@@ -25,6 +26,7 @@
     position: relative;
     top: 70px;
     background-image: url(../image/audio.png);
+    background-size: contain;
     background-repeat: no-repeat;
     padding-top: 166px;
     padding-left: 40px;
@@ -33,6 +35,7 @@
 
 .grid__container-item-karaoke {
     background-image: url(../image/karaoke.png);
+    background-size: contain;
     background-repeat: no-repeat;
     padding-top: 166px;
     padding-left: 40px;
@@ -41,6 +44,7 @@
 
 .grid__container-item-game {
     background-image: url(../image/game.png);
+    background-size: contain;
     background-repeat: no-repeat;
     padding-top: 166px;
     padding-left: 40px;
@@ -51,6 +55,7 @@
     position: relative;
     top: 70px;
     background-image: url(../image/kino.png);
+    background-size: contain;
     background-repeat: no-repeat;
     padding-top: 166px;
     padding-left: 40px;
@@ -59,6 +64,7 @@
 
 .grid__container-item-play {
     background-image: url(../image/play.png);
+    background-size: contain;
     background-repeat: no-repeat;
     padding-top: 166px;
     padding-left: 40px;
@@ -74,3 +80,113 @@
     transition-duration: 0.4s;
 }
 
+@media (max-width: 1250px) {
+    .grid__container {
+        gap: 30px 20px;
+    }
+
+    .grid__container-item {
+        width: 287px;
+        height: 172px;
+    }
+    
+    .grid__container-item-vr {
+        padding-top: 114px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .grid__container-item-audio {
+        top: 53px;
+        padding-top: 114px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .grid__container-item-karaoke {
+        padding-top: 114px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .grid__container-item-game {
+        padding-top: 114px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .grid__container-item-kino {
+        top: 53px;
+        padding-top: 114px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .grid__container-item-play {
+        padding-top: 114px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 960px) {
+    .grid {
+        padding-bottom: 55px;
+    }
+
+    .grid__container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .grid__container-item-kino {
+        top: 0;
+    }
+
+    .grid__container-item-audio {
+        top: 0;
+    }
+    
+    .grid__container-item {
+        width: 334px;
+        height: 200px;
+        padding-top: 132px;
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 720px) {
+    .grid {
+        padding-bottom: 30px;
+    }
+
+    .grid__container-item {
+        width: 135px;
+        height: 75px;
+        font-size: 10px;
+        padding-top: 40px;
+        padding-left: 10px;
+    }
+
+    
+    .grid__container-item-audio {
+        padding-right: 10px;
+    }
+    
+    .grid__container-item-karaoke {
+        padding-right: 10px;
+    }
+    
+    .grid__container-item-game {
+        padding-right: 10px;
+    }
+    
+    .grid__container-item-kino {
+        padding-right: 10px;
+    }
+    
+    .grid__container-item-play {
+        padding-right: 10px;
+    }
+}

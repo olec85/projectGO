@@ -22,6 +22,7 @@
 .footer__contacts-adress::before {
     content: "";
     background-image: url(../image/location.svg);
+    background-size: contain;
     background-repeat: no-repeat;
     /* padding-right: 50px; */
     position: absolute;
@@ -42,6 +43,7 @@
 .footer__contacts-phone::before {
     content: "";
     background-image: url(../image/bx_bxs-phone-call.svg);
+    background-size: contain;
     background-repeat: no-repeat;
     /* padding-right: 50px; */
     position: absolute;
@@ -61,6 +63,7 @@
 .footer__contacts-mail::before {
     content: "";
     background-image: url(../image/email.svg);
+    background-size: contain;
     background-repeat: no-repeat;
     /* padding-right: 50px; */
     position: absolute;
@@ -110,5 +113,77 @@
 
 .footer__social-link:focus svg {
     border: 1px solid #CD06FF;
-    
+}
+
+@media (max-width: 1250px) {
+    .footer__contacts {
+        max-width: 264px;
+        margin-bottom: 40px;
+    }
+
+    .footer__contacts-adress {
+        display: flex;
+        align-items: center;
+    }
+
+    .footer__social-link {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer__map {
+        width: 542px;
+        height: 274px;
+    }
+}
+
+@media (max-width: 960px) {
+    .footer__address {
+        flex-direction: column;
+    }
+
+    .footer__contacts-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__contacts {
+        max-width: 380px;
+        margin-bottom: 10px;
+    }
+
+    .footer__social-list {
+        margin-bottom: 30px;
+    }
+
+    .footer__map {
+        width: 100%;
+        height: 337px;
+    }
+}
+
+@media (max-width: 720px) {
+    .footer__contacts-adress {
+        font-size: 14px;
+    }
+    .footer__contacts-phone {
+        font-size: 14px;
+    }
+    .footer__contacts-mail {
+        font-size: 14px;
+    }
+
+    .footer__contacts-adress::before{
+        width: 20px;
+        height: 20px;
+    }
+    .footer__contacts-phone::before{
+        width: 20px;
+        height: 20px;
+    }
+    .footer__contacts-mail::before{
+        width: 20px;
+        height: 20px;
+    }
 }
