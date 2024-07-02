@@ -12,8 +12,14 @@
     margin-bottom: 0;
 } 
 
+.faq__list {
+    position: relative;
+}
+
 .faq__list-item::after {
+    position: absolute;
     content: "";
+    right: 30px;
     width: 46px;
     height: 46px;
     background-size: contain;
@@ -73,21 +79,28 @@
 @media (max-width: 1250px) {
     .faq__list-item {
         font-size: 20px;
-        padding: 23px 30px;
+        padding-left: 13px;
         margin-bottom: 16px;
+        padding-right: 80px;
+        line-height: 20px;
     }
 }
 
 @media (max-width: 720px) {
-    .faq__list-item {
-        font-size: 12px;
-        padding: 7px 0 7px 10px;
-        margin-bottom: 10px;
-    }
 
-    .faq__list-item img {
+    .faq__list-item::after {
+        right: 13px;
         width: 30px;
         height: 30px;
+    }
+
+    .faq__list-item {
+        font-size: 12px;
+        padding-left: 15px;
+        padding-bottom: 13px;
+        padding-top: 15px;
+        margin-bottom: 15px;
+        padding-right: 43px;
     }
 }
 
