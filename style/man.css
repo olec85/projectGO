@@ -87,7 +87,7 @@
     text-transform: uppercase;
     color: var(--white-color);
     background-color: #6c0287;
-    box-shadow: 0 0 10px var(--white-color);
+    /* box-shadow: 0 0 10px var(--white-color); */
 }
 
 .man__game-text-btn:hover {
@@ -230,6 +230,7 @@
     .man__game-text-btn {
         padding: 11px 35px;
         font-size: 16px;
+        border-radius: 4px;
     }
 }
 
