@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wild</title>
+
+    <link rel="icon" type="image/svg+xml" href="image/img/icon.svg">
+    <link rel="icon" type="image/png" href="image/img/icon.png">
+
+    <link rel="stylesheet" href="style/index.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header__wild">
         <div class="container">
             <div class="header__container">
+                <div class="header__container-burger"></div>
                 <img class="header__logo" src="./image/logo.svg" alt="логотип проекта GO">
                 <nav>
                     <ul class="header__nav">
@@ -25,7 +31,47 @@
     </header>
 
     <main>
+        <section class="background__wild">
+            <div class="container">
+                <a class="background__btn" href="index.html">Вернуться назад</a>
+                <!-- <button class="background__btn"></button> -->
+                <div class="background__container">
+                    <h1 class="background__title">wild west</h1>
+                </div>
+            </div>
+        </section>
 
+        <section class="description">
+            <div class="container">
+                <p class="description__title">Ох этот замечательный мир «Дикого Запада». Здесь вы сможете примерить на себя ковбойскую шляпу, кожаный жилет, ковбойские сапоги и даже сесть верхом на лошадь. И не важно, вы будете одним из омерзительной восьмерки или отправитесь в путь освобождать Джанго.</p>
+            </div>
+        </section>
+
+        <section class="what">
+            <div class="container">
+                <h2 class="what__title">Что есть в комнате?</h2>
+                <div class="what__container">
+                    <div class="what__container-img-wild"></div>
+                    <div class="what__container-description">
+                        <p class="what__container-description-description">В комнате присутствует большое количество элементов из любимых историй дикого запада. Револьверы, кожаные вещи, шляпы, сапоги и многое другое. </p>
+                        <p class="what__container-description-description">Вы сможете воспользоваться динамическими игровыми платформами в виде лошадей, старинного поезда или дома в стиле вестерна. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="other">
+            <div class="container">
+                <h2 class="what__title">Другие комнаты</h2>
+                <ul class="other__list">
+                    
+                    
+                    <li class="other__item other__item-theme-starwars"><a class="other__link" href="star.html">Star wars</a></li>
+                    <li class="other__item other__item-theme-neon"><a class="other__link" href="neon.html">Neon style</a></li>
+                    <li class="other__item other__item-theme-vibes"><a class="other__link" href="vibes.html">80’s vibes</a></li>
+                </ul>
+            </div>
+        </section>
     </main>
 
     <footer class="footer">

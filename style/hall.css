@@ -98,13 +98,13 @@
         padding-left: 107px;
     }
 
-    .hall__item-theme-vibes {
-        margin-right: 20px;
+    /* .hall__item-theme-vibes {
+        margin-right: 10px;
     }
 
     .hall__item-theme-starwars {
-        margin-bottom: 20px;
-    }
+        margin-bottom: 10px;
+    } */
 
     .hall__link {
         display: flex;
@@ -117,9 +117,24 @@
 
 @media (max-width: 720px) {
     .hall__item {
+        width: 250px;
+        font-size: 40px;
+        height: auto;
+        font-size: 32px;
+    }
+
+    .hall__link {
+        padding-top: 30px;
+        padding-bottom: 46px;
+    }
+}
+
+@media (max-width: 520px) {
+    .hall__item {
         width: 280px;
         font-size: 26px;
         height: 168px;
+        margin-bottom: 10px;
     }
 
     .hall__list {

@@ -40,7 +40,6 @@
     height: 596px; */
     /* margin-right: 80px; */
     vertical-align: top;
-
 }
 
 .about__content {
@@ -195,6 +194,16 @@
 }
 
 @media (max-width: 720px) {
+    .about__container {
+        grid-template-columns: 280px auto;
+        gap: 15px;
+    }
+}
+
+
+
+
+@media (max-width: 520px) {
     .about__container {
         /* grid-template-columns: 280px auto; */
         grid-template-columns: 1fr;

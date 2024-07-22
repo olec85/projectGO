@@ -12,6 +12,16 @@
     padding-top: 30px;
 }
 
+.header__wild {
+    padding-bottom: 108px;
+    padding-top: 30px;
+}
+
+.header__neon {
+    padding-bottom: 108px;
+    padding-top: 30px;
+}
+
 .header__container {
     display: flex;
     justify-content: space-between;
@@ -102,11 +112,16 @@
 }
 
 @media (max-width: 720px) {
-
     .header__btn {
         display: none;
     }
 
+    nav {
+        display: none;
+    }
+}
+
+@media (max-width: 520px) {
     .header__logo {
         width: 66px;
         height: 42px;

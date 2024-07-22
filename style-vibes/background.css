@@ -3,7 +3,33 @@
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
+    padding-bottom: 50px;
 }
+
+.background__star {
+    background-image: url(../image/star.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    padding-bottom: 50px;
+}
+
+.background__wild {
+    background-image: url(../image/wild.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    padding-bottom: 50px;
+}
+
+.background__neon {
+    background-image: url(../image/neon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    padding-bottom: 50px;
+}
+
 
 
 .background__btn {
@@ -16,13 +42,13 @@
 }
 
 .background__btn::before {
-   content: '';
-   background-image: url(../image/Arrow-back.png);
-   background-repeat: no-repeat;
-   width: 30px;
-   height: 15px;
-   display: inline-block;
-   padding-right: 10px;
+    content: '';
+    background-image: url(../image/Arrow-back.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 15px;
+    display: inline-block;
+    padding-right: 10px;
 }
 
 .background__title {
@@ -33,4 +59,27 @@
     text-transform: uppercase;
     text-align: center;
     color: var(--white-color);
+}
+
+@media (max-width: 1250px) {
+    .background__title {
+        padding: 227px 0;
+    }
+}
+
+@media (max-width: 960px) {
+    .background__title {
+        padding: 165px 0;
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 720px) {
+    .background__star {
+        background-position: right;
+    }
+}
+
+@media (max-width: 520px) {
+    
 }

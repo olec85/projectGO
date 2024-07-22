@@ -88,7 +88,7 @@
     }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 520px) {
 
     .faq__list-item::after {
         right: 13px;

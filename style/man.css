@@ -235,6 +235,30 @@
 }
 
 @media (max-width: 720px) {
+    .man__title {
+        font-size: 70px;
+    }
+
+
+    .man__game {
+        min-height: 395px;
+    }
+
+    .man__text {
+        padding-left: 50px;
+    }
+
+    .man__game::after {
+        width: 305px;
+        height: 350px;
+    }
+
+    .man__game-text-btn {
+        padding: 11px 23px;
+    }
+}
+
+@media (max-width: 520px) {
     .man__game {
         min-height: 204px;
     }

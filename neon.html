@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neon</title>
+
+    <link rel="icon" type="image/svg+xml" href="image/img/icon.svg">
+    <link rel="icon" type="image/png" href="image/img/icon.png">
+
+    <link rel="stylesheet" href="style/index.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header__neon">
         <div class="container">
             <div class="header__container">
+                <div class="header__container-burger"></div>
                 <img class="header__logo" src="./image/logo.svg" alt="логотип проекта GO">
                 <nav>
                     <ul class="header__nav">
@@ -25,7 +31,48 @@
     </header>
 
     <main>
+        <section class="background__neon">
+            <div class="container">
+                <a class="background__btn" href="index.html">Вернуться назад</a>
+                <!-- <button class="background__btn"></button> -->
+                <div class="background__container">
+                    <h1 class="background__title">Neon style</h1>
+                </div>
+            </div>
+        </section>
 
+        <section class="description">
+            <div class="container">
+                <p class="description__title">Неоновый свет, кислотный диджей, кеды и фотолюминесценция футболки. Если вы любитель темных комнат, музыкального драйва и светящейся одежды, то вы точно знаете что сегодня надеть. </p>
+            </div>
+        </section>
+
+        <section class="what">
+            <div class="container">
+                <h2 class="what__title">Что есть в комнате?</h2>
+                <div class="what__container">
+                    <div class="what__container-img-neon"></div>
+                    <div class="what__container-description">
+                        <p class="what__container-description-description">Вы сможете встать у диджейского пульта и создать свой сет, который порадует остальных участников комнаты...или нет. </p>
+                        <p class="what__container-description-description">В комнате также присутствует большое предметов с элементами фосфора, включая игровые консоли, стулья и диваны. Вы точно не потеряетесь внутри.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="other">
+            <div class="container">
+                <h2 class="what__title">Другие комнаты</h2>
+                <ul class="other__list">
+                    
+                    <li class="other__item other__item-theme-vibes"><a class="other__link" href="vibes.html">80’s vibes</a></li>
+                    <li class="other__item other__item-theme-wildwest"><a class="other__link" href="wild.html">Wild west</a></li>
+                    <li class="other__item other__item-theme-starwars"><a class="other__link" href="star.html">Star wars</a></li>
+                    
+                    
+                </ul>
+            </div>
+        </section>
     </main>
 
     <footer class="footer">

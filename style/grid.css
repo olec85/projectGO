@@ -157,6 +157,18 @@
 }
 
 @media (max-width: 720px) {
+    .grid__container-item {
+        width: 244px;
+        height: 145px;
+        padding-top: 86px;
+    }
+
+    .grid__container {
+        gap: 20px 20px;
+    }
+}
+
+@media (max-width: 520px) {
     .grid {
         padding-bottom: 30px;
     }

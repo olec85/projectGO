@@ -163,7 +163,7 @@
     }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 520px) {
     .footer__contacts-adress {
         font-size: 14px;
     }

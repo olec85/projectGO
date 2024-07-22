@@ -1,0 +1,88 @@
+.other {
+
+}
+
+.other__list {
+    display: flex;
+    gap: 20px;
+}
+
+.other__item {
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 30px;
+    display: inline-block;
+    vertical-align: top;
+    width: 380px;
+    height: 229px;
+}
+
+.other__link {
+    display: block;
+    padding: 78px 64px;
+}
+
+.other__item-theme-wildwest {
+    background-image: url(../image/four.png);
+    background-size: cover;
+}
+
+
+.other__item-theme-starwars {
+    background-image: url(../image/three.png);
+    background-size: cover;
+}
+
+.other__item-theme-neon {
+    background-image: url(../image/five.png);
+    background-size: cover;
+}
+
+.other__item-theme-vibes {
+    background-image: url(../image/two.png);
+    background-size: cover;
+}
+
+@media (max-width: 1250px) {
+
+}
+
+@media (max-width: 960px) {
+
+    .other__list {
+        height: 134px;
+    }
+
+    .other__item {
+        font-size: 20px;
+        height: auto;
+        width: 100%;
+    }
+
+    .other__link {
+        padding: 43px 37px;
+    }
+}
+
+@media (max-width: 720px) {
+    .other__list {
+        flex-direction: column;
+        height: 368px;
+    }
+
+    .other__link {
+        padding: 46px 110px;
+    }
+}
+
+@media (max-width: 520px) {
+    .other {
+        padding-bottom: 0;
+    }
+
+    .other__list {
+        height: 455px;
+    }
+}
+
+
